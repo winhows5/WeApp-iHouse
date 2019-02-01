@@ -1,0 +1,88 @@
+[2019-01-17 17:41:57] INFO [<module>: getHTML.py, 20] first info message
+[2019-01-17 17:41:57] DEBUG [<module>: getHTML.py, 21] first debug message
+[2019-01-17 17:41:58] DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:50756/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}
+[2019-01-17 17:41:58] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 127.0.0.1:50756
+[2019-01-17 17:42:00] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:50756 "POST /session HTTP/1.1" 200 890
+[2019-01-17 17:42:00] DEBUG [_request: remote_connection.py, 442] Finished Request
+[2019-01-17 17:42:00] DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:50756/session/04a1c3a47f2414c2e4051657be5f1a3a/url {"url": "http://scp-wiki-cn.wikidot.com/scp-series", "sessionId": "04a1c3a47f2414c2e4051657be5f1a3a"}
+[2019-01-17 17:42:52] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:50756 "POST /session/04a1c3a47f2414c2e4051657be5f1a3a/url HTTP/1.1" 200 72
+[2019-01-17 17:42:52] DEBUG [_request: remote_connection.py, 442] Finished Request
+[2019-01-17 17:42:52] DEBUG [_request: remote_connection.py, 390] GET http://127.0.0.1:50756/session/04a1c3a47f2414c2e4051657be5f1a3a/screenshot {"sessionId": "04a1c3a47f2414c2e4051657be5f1a3a"}
+[2019-01-17 17:42:53] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:50756 "GET /session/04a1c3a47f2414c2e4051657be5f1a3a/screenshot HTTP/1.1" 200 264290
+[2019-01-17 17:42:53] DEBUG [_request: remote_connection.py, 442] Finished Request
+[2019-01-17 17:42:53] DEBUG [_request: remote_connection.py, 390] DELETE http://127.0.0.1:50756/session/04a1c3a47f2414c2e4051657be5f1a3a {"sessionId": "04a1c3a47f2414c2e4051657be5f1a3a"}
+[2019-01-17 17:42:53] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:50756 "DELETE /session/04a1c3a47f2414c2e4051657be5f1a3a HTTP/1.1" 200 72
+[2019-01-17 17:42:53] DEBUG [_request: remote_connection.py, 442] Finished Request
+[2019-01-17 17:44:17] INFO [SCPCrawl: getHTML.py, 28] first info message
+[2019-01-17 17:44:17] ERROR [SCPCrawl: getHTML.py, 29] first debug message
+[2019-01-17 17:44:18] DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51061/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}
+[2019-01-17 17:44:18] DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 127.0.0.1:51061
+[2019-01-17 17:44:20] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51061 "POST /session HTTP/1.1" 200 889
+[2019-01-17 17:44:20] DEBUG [_request: remote_connection.py, 442] Finished Request
+[2019-01-17 17:44:20] DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51061/session/6d6cebb1f00e3e1bc45de5bc23d66cc2/url {"url": "http://scp-wiki-cn.wikidot.com/scp-series", "sessionId": "6d6cebb1f00e3e1bc45de5bc23d66cc2"}
+[2019-01-17 17:44:46] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51061 "POST /session/6d6cebb1f00e3e1bc45de5bc23d66cc2/url HTTP/1.1" 200 72
+[2019-01-17 17:44:46] DEBUG [_request: remote_connection.py, 442] Finished Request
+[2019-01-17 17:44:46] DEBUG [_request: remote_connection.py, 390] GET http://127.0.0.1:51061/session/6d6cebb1f00e3e1bc45de5bc23d66cc2/screenshot {"sessionId": "6d6cebb1f00e3e1bc45de5bc23d66cc2"}
+[2019-01-17 17:44:46] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51061 "GET /session/6d6cebb1f00e3e1bc45de5bc23d66cc2/screenshot HTTP/1.1" 200 264290
+[2019-01-17 17:44:46] DEBUG [_request: remote_connection.py, 442] Finished Request
+[2019-01-17 17:44:46] DEBUG [_request: remote_connection.py, 390] DELETE http://127.0.0.1:51061/session/6d6cebb1f00e3e1bc45de5bc23d66cc2 {"sessionId": "6d6cebb1f00e3e1bc45de5bc23d66cc2"}
+[2019-01-17 17:44:46] DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51061 "DELETE /session/6d6cebb1f00e3e1bc45de5bc23d66cc2 HTTP/1.1" 200 72
+[2019-01-17 17:44:46] DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:02 INFO [SCPCrawl: getHTML.py, 28] first info message
+2019-01-28 16:02:02 INFO [SCPCrawl: getHTML.py, 28] first info message
+2019-01-28 16:02:02 ERROR [SCPCrawl: getHTML.py, 29] first debug message
+2019-01-28 16:02:02 ERROR [SCPCrawl: getHTML.py, 29] first debug message
+2019-01-28 16:02:02 ERROR [SCPCrawl: getHTML.py, 29] first debug message
+2019-01-28 16:02:02 ERROR [SCPCrawl: getHTML.py, 29] first debug message
+2019-01-28 16:02:03 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51033/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}
+2019-01-28 16:02:03 DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 127.0.0.1:51033
+2019-01-28 16:02:03 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51032/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}
+2019-01-28 16:02:03 DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 127.0.0.1:51032
+2019-01-28 16:02:03 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51034/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}
+2019-01-28 16:02:03 DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 127.0.0.1:51034
+2019-01-28 16:02:04 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51031/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": ["--headless", "window-size=1920,1080"]}}}
+2019-01-28 16:02:04 DEBUG [_new_conn: connectionpool.py, 205] Starting new HTTP connection (1): 127.0.0.1:51031
+2019-01-28 16:02:05 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51033 "POST /session HTTP/1.1" 200 891
+2019-01-28 16:02:05 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:05 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51033/session/5de1f7e7e7253a6c949727a78c4cdd30/url {"url": "http://scp-wiki-cn.wikidot.com/scp-series", "sessionId": "5de1f7e7e7253a6c949727a78c4cdd30"}
+2019-01-28 16:02:06 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51032 "POST /session HTTP/1.1" 200 891
+2019-01-28 16:02:06 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:06 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51032/session/ecf3396e3971dff615e8074643dea0ff/url {"url": "http://scp-wiki-cn.wikidot.com/scp-series", "sessionId": "ecf3396e3971dff615e8074643dea0ff"}
+2019-01-28 16:02:06 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51034 "POST /session HTTP/1.1" 200 891
+2019-01-28 16:02:06 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:06 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51034/session/acb8aa887741388e6367316dc02530a9/url {"url": "http://scp-wiki-cn.wikidot.com/scp-series", "sessionId": "acb8aa887741388e6367316dc02530a9"}
+2019-01-28 16:02:07 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51031 "POST /session HTTP/1.1" 200 890
+2019-01-28 16:02:07 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:07 DEBUG [_request: remote_connection.py, 390] POST http://127.0.0.1:51031/session/c3cc1692a53890df0922828048d823df/url {"url": "http://scp-wiki-cn.wikidot.com/scp-series", "sessionId": "c3cc1692a53890df0922828048d823df"}
+2019-01-28 16:02:42 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51033 "POST /session/5de1f7e7e7253a6c949727a78c4cdd30/url HTTP/1.1" 200 72
+2019-01-28 16:02:42 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:42 DEBUG [_request: remote_connection.py, 390] GET http://127.0.0.1:51033/session/5de1f7e7e7253a6c949727a78c4cdd30/screenshot {"sessionId": "5de1f7e7e7253a6c949727a78c4cdd30"}
+2019-01-28 16:02:42 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51033 "GET /session/5de1f7e7e7253a6c949727a78c4cdd30/screenshot HTTP/1.1" 200 264430
+2019-01-28 16:02:42 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:42 DEBUG [_request: remote_connection.py, 390] DELETE http://127.0.0.1:51033/session/5de1f7e7e7253a6c949727a78c4cdd30 {"sessionId": "5de1f7e7e7253a6c949727a78c4cdd30"}
+2019-01-28 16:02:42 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51033 "DELETE /session/5de1f7e7e7253a6c949727a78c4cdd30 HTTP/1.1" 200 72
+2019-01-28 16:02:42 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:44 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51031 "POST /session/c3cc1692a53890df0922828048d823df/url HTTP/1.1" 200 72
+2019-01-28 16:02:44 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:44 DEBUG [_request: remote_connection.py, 390] GET http://127.0.0.1:51031/session/c3cc1692a53890df0922828048d823df/screenshot {"sessionId": "c3cc1692a53890df0922828048d823df"}
+2019-01-28 16:02:44 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51031 "GET /session/c3cc1692a53890df0922828048d823df/screenshot HTTP/1.1" 200 264430
+2019-01-28 16:02:44 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:44 DEBUG [_request: remote_connection.py, 390] DELETE http://127.0.0.1:51031/session/c3cc1692a53890df0922828048d823df {"sessionId": "c3cc1692a53890df0922828048d823df"}
+2019-01-28 16:02:44 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51031 "DELETE /session/c3cc1692a53890df0922828048d823df HTTP/1.1" 200 72
+2019-01-28 16:02:44 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:46 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51034 "POST /session/acb8aa887741388e6367316dc02530a9/url HTTP/1.1" 200 72
+2019-01-28 16:02:46 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:46 DEBUG [_request: remote_connection.py, 390] GET http://127.0.0.1:51034/session/acb8aa887741388e6367316dc02530a9/screenshot {"sessionId": "acb8aa887741388e6367316dc02530a9"}
+2019-01-28 16:02:46 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51034 "GET /session/acb8aa887741388e6367316dc02530a9/screenshot HTTP/1.1" 200 264430
+2019-01-28 16:02:46 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:02:46 DEBUG [_request: remote_connection.py, 390] DELETE http://127.0.0.1:51034/session/acb8aa887741388e6367316dc02530a9 {"sessionId": "acb8aa887741388e6367316dc02530a9"}
+2019-01-28 16:02:46 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51034 "DELETE /session/acb8aa887741388e6367316dc02530a9 HTTP/1.1" 200 72
+2019-01-28 16:02:46 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:05:03 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51032 "POST /session/ecf3396e3971dff615e8074643dea0ff/url HTTP/1.1" 200 72
+2019-01-28 16:05:03 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:05:03 DEBUG [_request: remote_connection.py, 390] GET http://127.0.0.1:51032/session/ecf3396e3971dff615e8074643dea0ff/screenshot {"sessionId": "ecf3396e3971dff615e8074643dea0ff"}
+2019-01-28 16:05:03 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51032 "GET /session/ecf3396e3971dff615e8074643dea0ff/screenshot HTTP/1.1" 200 264430
+2019-01-28 16:05:03 DEBUG [_request: remote_connection.py, 442] Finished Request
+2019-01-28 16:05:03 DEBUG [_request: remote_connection.py, 390] DELETE http://127.0.0.1:51032/session/ecf3396e3971dff615e8074643dea0ff {"sessionId": "ecf3396e3971dff615e8074643dea0ff"}
+2019-01-28 16:05:03 DEBUG [_make_request: connectionpool.py, 393] http://127.0.0.1:51032 "DELETE /session/ecf3396e3971dff615e8074643dea0ff HTTP/1.1" 200 72
+2019-01-28 16:05:03 DEBUG [_request: remote_connection.py, 442] Finished Request
